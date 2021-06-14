@@ -1,0 +1,11 @@
+package form;
+
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseAdapter;
+
+class DataSiswa$1 extends MouseAdapter {
+    @Override
+    public void mouseClicked(final MouseEvent evt) {
+        this.this$0.tableSiswaMouseClicked(evt);
+    }
+}
